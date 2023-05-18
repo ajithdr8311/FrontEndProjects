@@ -1,0 +1,641 @@
+
+<!-- saved from url=(0070)http://internship.suvenconsultants.com/domains/bootstrap/project-3.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="PI-ZP6ua4nWrRzz9ZBRHSIioHv3CgSlf9FWicBdYJ5s">
+    <title>  Online Coding Internship - Suven Consultants &amp; Technology Pvt. Ltd. </title>
+  <link rel="shortcut icon" href="http://internship.suvenconsultants.com/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="http://internship.suvenconsultants.com/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./Online Coding Internship - Suven Consultants &amp; Technology Pvt. Ltd._files/bootstrap.min.css">
+  <link rel="stylesheet" href="./Online Coding Internship - Suven Consultants &amp; Technology Pvt. Ltd._files/internship.css">
+  <link rel="stylesheet" href="./Online Coding Internship - Suven Consultants &amp; Technology Pvt. Ltd._files/font-awesome.css">
+
+<style>
+@media only screen and (max-width: 768px) {
+	#hiringModal p{
+		font-size: 8px;
+		text-align: justify;
+	}
+}
+@media only screen and (min-width: 768px) {
+	#hiringModal p{
+		font-size: 12px;
+		text-align: justify;
+	}
+} 
+.ai_div{
+    border: 1px solid turquoise;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    min-height: 300px;
+    max-height: 100%;
+}
+.address_modal{
+	height: 200px;
+}
+.address_modal p{
+	font-size: 13px;
+}
+.training{
+    background-color:#fff;
+    border: 1px solid silver;
+    box-shadow: 0px 0px 10px silver;
+    border-radius: 10px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:-10px;
+    position: fixed;
+    bottom: 10px;
+    font-size:13px;
+    right: 10px;
+    z-index: 999;
+    line-height:10px;
+}
+.inset {
+  margin-left:12px;     
+  margin-top:10px;    
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow:
+    inset 0 0 0 2px rgba(255,255,255,0.6), 
+    0 1px 1px rgba(0,0,0,0.1);
+  background-color: transparent !important;
+  z-index: 999;
+}
+
+.inset img {
+  border-radius: inherit;
+  width: inherit;
+  height: inherit;
+  display: block;
+  position: relative;
+  z-index: 998;
+}
+</style> 
+
+<style>
+    .well{
+       background:linear-gradient(90deg,#70d467 0,#6fbbfa);
+       color:#fff;
+       font-size:25px !important;
+    }
+    .steps_div{
+       background-color:#fff;
+       box-shadow: 0px 0px 10px silver;
+    }
+    .btn-start_coding{
+       background:linear-gradient(90deg,#70d467 0,#6fbbfa);
+       color:#000;
+       font-weight:bold;
+       box-shadow:0px 0px 10px #34495e;
+    }
+    .breadcrumb{
+       background-color:transparent !important;
+       padding-top:0px;
+       margin-bottom:-10px;
+    }
+    .breadcrumb li>a{
+       color:white !important;
+    }
+    .breadcrumb li>a:hover{
+       color:#34495e !important;
+    }
+    .ins p{
+       text-align:justify;
+    }
+    ul.breadcrumb li+li:before {
+      padding: 8px;
+      color: #777;
+      content: ">\00a0";
+    }
+</style>
+
+<script data-dapp-detection="">!function(){let e=!1;function n(){if(!e){const n=document.createElement("meta");n.name="dapp-detected",document.head.appendChild(n),e=!0}}if(window.hasOwnProperty("ethereum")){if(window.__disableDappDetectionInsertion=!0,void 0===window.ethereum)return;n()}else{var t=window.ethereum;Object.defineProperty(window,"ethereum",{configurable:!0,enumerable:!1,set:function(e){window.__disableDappDetectionInsertion||n(),t=e},get:function(){if(!window.__disableDappDetectionInsertion){const e=arguments.callee;e&&e.caller&&e.caller.toString&&-1!==e.caller.toString().indexOf("getOwnPropertyNames")||n()}return t}})}}();</script></head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="https://suvenconsultants.com/"><img src="./Online Coding Internship - Suven Consultants &amp; Technology Pvt. Ltd._files/sctpl_logo.png" style="display:inline;">
+              <span>Suven Consultants &amp; Technology Pvt. Ltd.</span></a>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <!--<ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Page 1</a></li>
+                <li><a href="#">Page 2</a></li> 
+                <li><a href="#">Page 3</a></li> 
+              </ul>-->
+              <ul class="nav navbar-nav navbar-right">
+                <li><a id="#" href="https://internship.suvenconsultants.com/domains/bootstrap/" class="head_panel" style="font-size:15px">See Other Projects</a></li>
+                <li><a id="#" href="https://internship.suvenconsultants.com/profile.php" class="head_panel" style="font-size:15px">Profile</a></li>
+                <li><a id="#" href="https://internship.suvenconsultants.com/faq.php" class="head_panel" style="font-size:15px">FAQ</a></li>
+        		<li><a href="https://internship.suvenconsultants.com/" style="cursor:pointer;font-size:15px"><span class="glyphicon glyphicon-home"></span></a></li>
+        		<li class="dropdown">
+                            <div class="inset" data-toggle="dropdown"><img src="./Online Coding Internship - Suven Consultants &amp; Technology Pvt. Ltd._files/default-user.png" class="img-responsive" data-toggle="tooltip" title="AJITH D R
+ajithdr8311@gmail.com" style="cursor:pointer;"></div>
+                            <ul class="dropdown-menu hidden-sm hidden-xs" style="padding:5px;">
+                                <li class="text-center"><p><b>AJITH D R</b></p>
+                                <p>ajithdr8311@gmail.com</p></li>
+                                <a href="http://internship.suvenconsultants.com/profile.php?userID=40456" class="btn btn-info btn-sm center-block">Profile</a>
+                                <li class="divider"></li>
+                                <a href="http://internship.suvenconsultants.com/logout.php" class="btn btn-danger btn-sm center-block">Logout</a>
+                            </ul>
+                            <ul class="dropdown-menu hidden-lg hidden-md" style="padding:5px;">
+                                <a href="http://internship.suvenconsultants.com/profile.php?userID=40456" class="btn btn-info btn-sm">Profile</a>&nbsp;&nbsp;<a href="http://internship.suvenconsultants.com/logout.php" class="btn btn-danger btn-sm">Logout</a>
+                            </ul></li>              </ul>
+            </div>
+          </div>
+        </nav>
+<br><br>
+
+<div class="well well-sm">
+<h2 class="text-center"><strong>
+    <ul class="breadcrumb"><li><a href="http://internship.suvenconsultants.com/">Home</a></li><li><a href="http://internship.suvenconsultants.com/domains">Domains</a></li><li><a href="http://internship.suvenconsultants.com/domains/bootstrap">Bootstrap</a></li><li class="active">Project 3</li><span style="color:#777;"> - EarBot Lifecycle<span></span></span></ul>    </strong></h2>
+</div>
+
+<div class="container-fluid">
+    <strong>Instructions: </strong><br>
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ins">
+        <p>1. See the below <b>IFrame</b> which contains live demo of the project &amp; do the following steps<br>
+        <span style="font-size:11px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(kindly scroll the page in the iframe below to get complete look &amp; feel)</span></p>
+        <ol type="a">
+            <li>On the welcome page show 3 images with animations &amp; give hyperlink the images for the home page.</li>
+            <li>On Home page use <code>navbar, carousel</code>and Grid system to show image gallery.</li>
+            <li>On <b>Connect</b> show image and text with equal <code>col-6</code> for large devices and <code>col-12</code> for small devices all.</li>
+        </ol>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ins" style="border-left:1px solid silver;">
+        <p>2. Create the same project <b>"EarBot"</b> with same functionality.</p>
+        <p>3. For guiding you on coding steps, we have provided you pdf <a href="https://internship.suvenconsultants.com/projects/boat/earbot.pdf" target="_blank">Click Here to Download.</a></p>
+        <p>4. Upload your project only on <a href="https://www.000webhost.com/" target="_blank">https://www.000webhost.com/</a> or <a href="https://www.5gbfree.com/" target="_blank">https://www.5gbfree.com/</a></p>
+        <p>5. Update your project hosting link in profile section for approval - <a href="https://internship.suvenconsultants.com/profile.php#myprojects">see here</a>.</p>
+        <span style="font-size:12px;line-height:0.1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;( for example this project URL link would like this : <b>https://yourProjectName.000webhostapp.com</b> )</span><p></p>
+        <p>6. The AI assessment test is an MCQ test and starts immediately on project link submission.</p>
+        <p>7. Time duration for this <b>domain</b> having 6 projects is 4 weeks(140 hrs).</p> 
+        <p>8. Ideally this project should take less than 20 hrs to fully code and document.</p>
+        <p>9. To start coding click on <b>"I want to start my Internship"</b> button.</p>
+        <p> Note : <b>Use your own images</b>. Images are not provided for any project. </p>
+        </div>
+    </div>
+    <div class="hidden-sm hidden-xs">
+        <form id="projectForm" method="post">
+                <input type="hidden" name="uid" value="40456">
+                <input type="hidden" name="uname" value="AJITH D R">
+                <input type="hidden" name="uemail" value="ajithdr8311@gmail.com">        
+                <input type="hidden" name="domain" value="Bootstrap">
+                <input type="hidden" name="project_no" value="3">
+                <input type="hidden" name="project_name" value="EarBot">
+                <input type="hidden" name="project_img" value="earbot.JPG">
+                <input type="hidden" name="project_doc" value="https://internship.suvenconsultants.com/projects/boat/earbot.pdf">
+                <button type="button" id="btnadd" class="btn btn-start_coding btn-lg" style="float:right;">I want to start my Internship</button>
+            </form>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 hidden-xs hidden-sm">
+            <center>
+                <object data="./Online Coding Internship - Suven Consultants &amp; Technology Pvt. Ltd._files/saved_resource" width="100%" height="100%" type="text/html" style="-webkit-transform:scale(0.7);-moz-transform-scale(0.7);border:1px outset #34344e;">
+                    Not Supported ? Best View in Laptop 
+                </object>
+            </center>
+        </div>
+        <div class="col-lg-12 col-md-12 hidden-lg hidden-md">
+            <div class="alert alert-danger text-center"><b>Live Demo is not available in Mobile phones. please switch to Laptop/desktop.</b></div>
+        </div>
+        </div>
+            <br><br>
+            <form id="projectForm" method="post">
+                <input type="hidden" name="uid" value="40456">
+                <input type="hidden" name="uname" value="AJITH D R">
+                <input type="hidden" name="uemail" value="ajithdr8311@gmail.com">        
+                <input type="hidden" name="domain" value="Bootstrap">
+                <input type="hidden" name="project_no" value="3">
+                <input type="hidden" name="project_name" value="EarBot">
+                <input type="hidden" name="project_img" value="earbot.JPG">
+                <input type="hidden" name="project_doc" value="https://internship.suvenconsultants.com/projects/boat/earbot.pdf">
+                <button type="button" id="btnadd" class="btn btn-start_coding btn-lg" style="float:right;">I want to start my Internship</button>
+            </form>
+</div>
+
+<div class="modal fade" id="addprojectModal" tabindex="-1" role="dialog" onclick="closeModal()">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header text-center" style="background: linear-gradient(90deg,#70d467 0,#6fbbfa);">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h2 class="modal-title" id="myModalLabel1"><b>Online Coding Internship</b></h2>
+            </div>
+            <div class="modal-body text-center" id="displayContent">
+                
+            </div>
+            <div class="modal-footer" text-center=""> 
+                <button class="btn btn-info" data-dismiss="modal">Close</button>   
+        	</div>
+    	</div>
+	</div>
+</div>
+
+
+
+<hr style="margin-top:1%;">   
+
+<!-- #previous END OF SECTION TIMETABLE : DIGITAL MARKETING-->
+
+<section id="bottom" class="navclass">
+    <div class="container-fluid hidden-xs hidden-sm" id="footer">
+         <div class="row" style="margin-left: auto; margin-right: auto; padding-left:40px; padding-right:50px; margin-bottom: 30px; margin-top: 30px;">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<ul>
+				<h4><strong>Training Programs</strong></h4>
+				<li><a href="https://internship.suvenconsultants.com/" target="_blank">Coding Internships</a></li>
+				<li><a href="https://datascience.suvenconsultants.com/#python" target="_blank">Python (Core + Advanced)</a></li>
+				<li><a href="https://datascience.suvenconsultants.com/" target="_blank">Masters in Data Science</a></li>
+                <li><a href="https://datascience.suvenconsultants.com/#dataanalytics" target="_blank">Business Data Analytics</a></li>
+                <li><a href="https://monster.suvenconsultants.com/" target="_blank">Full Stack Web Developer</a></li>
+                <li><a href="https://db.suvenconsultants.com/" target="_blank">Database SQL+PL/SQL</a></li>
+                <li><a href="https://java.suvenconsultants.com/" target="_blank">Java Certification</a></li>
+                <li><a href="https://training.suvenconsultants.com/" target="_blank">List of all Training Programs</a></li>
+				</ul>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<ul>
+				<h4><strong>Recruitment Services</strong></h4>
+				<li><a href="http://internship.suvenconsultants.com/domains/bootstrap/project-3.php#" data-toggle="modal" data-target="#hiringModal">IT Recruitment - Lateral</a></li>
+				<li><a href="http://internship.suvenconsultants.com/domains/bootstrap/project-3.php#" data-toggle="modal" data-target="#hiringModal">Non-IT and Support for Lateral upto VP/GM etc.</a></li>
+				<li><a href="http://internship.suvenconsultants.com/domains/bootstrap/project-3.php#" data-toggle="modal" data-target="#hiringModal">Employee Verification through Reference Checks</a></li>
+				<li><a href="http://internship.suvenconsultants.com/domains/bootstrap/project-3.php#" data-toggle="modal" data-target="#hiringModal">Interview and Rejection handling services</a></li>
+				<li><a href="http://internship.suvenconsultants.com/domains/bootstrap/project-3.php#" data-toggle="modal" data-target="#hiringModal">Salary Negotiations as per Industry norms</a></li>
+				<li><a href="http://internship.suvenconsultants.com/domains/bootstrap/project-3.php#" data-toggle="modal" data-target="#hiringModal">Profile Mapping as per Industry norms</a></li>
+				<li><a href="http://internship.suvenconsultants.com/domains/bootstrap/project-3.php#" data-toggle="modal" data-target="#hiringModal">Complete Hand-holding Support till Joining</a></li>
+				</ul>
+				</div>
+				
+				
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<ul>
+				<h4><strong>Get In Touch</strong></h4>
+				<li>For Training Requirements<a href="https://www.linkedin.com/in/rocky-jagtiani-3b390649/" target="_blank"> <u>Connect Here</u></a></li>
+				<li>For Recruitment Requirements<a href="https://in.linkedin.com/in/simran-jagtiani-752b0347" target="_blank"> <u>Connect Here</u></a></li>
+				<li>Follow us on <a href="http://internship.suvenconsultants.com/domains/bootstrap/quora.com/Is-Master-in-Data-Science-course-at-Suven-consultants-good" target="_blank"><u>Quora</u></a></li>
+				<li>Follow us on <a href="https://www.linkedin.com/company/suven-consultants-and-technology-pvt-ltd" target="_blank"><u>Linkedin</u></a></li>
+				<li>#SuvenAlumni <a href="https://drive.google.com/file/d/1wcKFqSGDu4Q-W5EO54N9BA8T_MsqC5jn/view?usp=sharing" target="_blank"><u>here</u></a></li>
+			</ul>
+			</div>
+			</div>	
+		<hr>	
+		<center> © Copyright 2007 - 2021  </center>
+		<hr>	
+        </div><!-- end of container-->
+        
+        
+        <div class="container-fluid hidden-lg hidden-md" id="footer">
+            <div class="row" style="margin-left: auto; margin-right: auto; margin-top: 15px; margin-bottom: 10px;">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<ul>
+				<h4><strong>Training Programs</strong></h4>
+				<li><a href="https://internship.suvenconsultants.com/" target="_blank">Coding Internships</a></li>
+				<li><a href="https://datascience.suvenconsultants.com/#python" target="_blank">Python (Core + Advanced)</a></li>
+				<li><a href="https://datascience.suvenconsultants.com/" target="_blank">Masters in Data Science</a></li>
+                <li><a href="https://datascience.suvenconsultants.com/#dataanalytics" target="_blank">Business Data Analytics</a></li>
+                <li><a href="https://monster.suvenconsultants.com/" target="_blank">Full Stack Web Developer</a></li>
+                </ul>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<ul>
+				<h4><strong>Recruitment Services</strong></h4>
+				<li><a href="http://internship.suvenconsultants.com/domains/bootstrap/project-3.php#" data-toggle="modal" data-target="#hiringModal">IT Recruitment - Lateral</a></li>
+				<li><a href="http://internship.suvenconsultants.com/domains/bootstrap/project-3.php#" data-toggle="modal" data-target="#hiringModal">Non-IT and Support for Lateral upto VP/GM etc.</a></li>
+				<li><a href="http://internship.suvenconsultants.com/domains/bootstrap/project-3.php#" data-toggle="modal" data-target="#hiringModal">Employee Verification through Reference Checks</a></li>
+				<li><a href="http://internship.suvenconsultants.com/domains/bootstrap/project-3.php#" data-toggle="modal" data-target="#hiringModal">Interview and Rejection handling services</a></li>
+				<li><a href="http://internship.suvenconsultants.com/domains/bootstrap/project-3.php#" data-toggle="modal" data-target="#hiringModal">Salary Negotiations as per Industry norms</a></li>
+				<li><a href="http://internship.suvenconsultants.com/domains/bootstrap/project-3.php#" data-toggle="modal" data-target="#hiringModal">Profile Mapping as per Industry norms</a></li>
+				<li><a href="http://internship.suvenconsultants.com/domains/bootstrap/project-3.php#" data-toggle="modal" data-target="#hiringModal">Complete Hand-holding Support till Joining</a></li>
+				</ul>
+				</div>
+				
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<ul>
+				<h4><strong>Get In Touch</strong></h4>
+				<li>For Training <a href="https://www.linkedin.com/in/rocky-jagtiani-3b390649/" target="_blank"> <u>Connect Here</u></a></li>
+				<li>For Recruitment <a href="https://in.linkedin.com/in/simran-jagtiani-752b0347" target="_blank"> <u>Connect Here</u></a></li>
+				<li>Follow us on <a href="http://internship.suvenconsultants.com/domains/bootstrap/quora.com/Is-Master-in-Data-Science-course-at-Suven-consultants-good" target="_blank"><u>Quora</u></a></li>
+				<li>Follow us on <a href="https://www.linkedin.com/company/suven-consultants-and-technology-pvt-ltd" target="_blank"><u>Linkedin</u></a></li>
+				<li>#SuvenAlumni <a href="https://drive.google.com/file/d/1wcKFqSGDu4Q-W5EO54N9BA8T_MsqC5jn/view?usp=sharing" target="_blank"><u>here</u></a></li>
+				</ul>
+				</div>
+			</div>	
+        <hr>     
+        <center> © Copyright 2007 - 2021  </center>
+        <hr>     
+        </div><!-- end of container-->
+  </section>
+	
+	
+	<!-- Popup Modal For Addresses -->
+		<div id="addressModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+			<div class="modal-content">
+			  <div class="modal-header text-center">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h4><strong>SCTPL Training Room Addresses</strong></h4>
+				<h5 class="modal-title">Centralized Contact No.: <strong>+91 9870014450</strong></h5>
+			  </div>
+			<div class="modal-body">
+				<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<address class="chembur_address"><strong><span class="glyphicon glyphicon-map-marker" style="font-size: 20px; color:#ff4d4d"></span>SCTPL-CHEMBUR</strong><br>4/B wing,Trishul Apartments,<br>Sindhi Society Rd Number 1,<br>Chembur, Mumbai 400071.<br><span class="glyphicon glyphicon-phone-alt" style="font-size: 20px; color:#ffc34d"></span> 022-25277413 <br> <span class="glyphicon glyphicon-phone" style="font-size: 20px; color:#DDA6AE"></span>7666034450.</address>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<address class="kandivali_address"><strong><span class="glyphicon glyphicon-map-marker" style="font-size: 20px; color:#ff4d4d"></span>SCTPL-KANDIVALI </strong><br>510, 5th Floor , Ghanshyam Enclave,<br>Link Road, Lalji-pada Junction<br>Kandivali West, Mumbai 400067.<br><span class="glyphicon glyphicon-phone-alt" style="font-size: 20px; color:#ffc34d"></span> 022-28674177<br> <span class="glyphicon glyphicon-phone" style="font-size: 20px; color:#DDA6AE"></span>9870014450.</address>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<address class="thanenew_address"><strong><span class="glyphicon glyphicon-map-marker" style="font-size: 20px; color:#ff4d4d"></span>Suven Consultants &amp; Technology Pvt. Ltd. <br>c/o </strong>kalpana classes<br>2nd Floor, Yashodhan Building,<br>above monginee cake shop,<br>Thane West, Mumbai 400601.<br><span class="glyphicon glyphicon-phone" style="font-size: 20px; color:#DDA6AE"></span> 9870014450.</address>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<address class="dadarnew_address"><strong><span class="glyphicon glyphicon-map-marker" style="font-size: 20px; color:#ff4d4d"></span>Suven Consultants &amp; Technology Pvt. Ltd. <br>c/o </strong>kalpana classes<br> 205, 2nd Floor, Pearl Centre,<br>Senapati Bapat Road, Dadar West, <br>Mumbai 400028.<br><span class="glyphicon glyphicon-phone" style="font-size: 20px; color:#DDA6AE"></span> 9870014450.</address>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+			<!-- Popup Modal For Contact US -->
+		<div id="contactModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+			<div class="modal-content">
+			  <div class="modal-header text-center">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h4 class="modal-title">Let us connect with you</h4>
+				</div>
+			<div class="modal-body">
+				<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<form name="contactForm" action="http://internship.suvenconsultants.com/domains/bootstrap/connectus.php" method="post" onsubmit="return validateContact()">
+				<div class="row">    
+				<div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<input type="text" class="form-control" name="name" placeholder="Enter your name" required="">
+				</div>
+				<div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<input type="tel" class="form-control" name="mobile" placeholder="Enter your mobile no." required="">
+				</div>
+				<div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<input type="email" class="form-control" name="mail_id" placeholder="Enter Your Email ID - Only @gmail and @yahoo IDs allowed" required="">
+				</div>
+				<div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<textarea class="form-control" name="purpose" id="purpose" placeholder="how can we help ?" maxlength="100" required=""></textarea>
+				</div>
+				</div>
+				<div class="form-group">
+					<div class="col-lg-offset-1 col-lg-4 col-md-4 col-sm-4 col-xs-6" style="padding:0px;">	
+					<img src="./Online Coding Internship - Suven Consultants &amp; Technology Pvt. Ltd._files/captcha.php" class="img-reponsive img-rounded">
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6" style="padding:0px;">
+  					<input type="text" class="form-control" name="code" id="code" placeholder="Enter Captcha" required="">
+  					</div>
+  					<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 text-center">
+    				<button type="submit" class="btn btn-success" id="btn_submit">Submit</button>
+    				</div>
+  				</div>
+  				
+  				<div class="row"><br><hr>
+  				    <p class="text-center"><b>SCTPL Branches</b></p>
+  				    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 address_modal">
+  				            <p><b>Chembur</b></p>
+  				            <p>4/B wing,Trishul Apartments,
+                            Sindhi Society Rd Number 1,
+                            Chembur, Mumbai.</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> 022-25277413</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> 9870014450</p>
+  				    </div>
+  				    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 address_modal">
+  				            <p><b>Kandivali</b></p>
+  				            <p>510, 5th Floor , Ghanshyam Enclave,
+                            Link Road, Lalji-pada Junction
+                            Kandivali West, Mumbai.</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> 022-28674177</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> 9870014450</p>
+  				    </div>
+  				    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 address_modal">
+  				            <p><b>Thane</b></p>
+  				            <p>Kalpana Classes
+                            202, 2nd Floor, Crystal Court, B Cabin, Above Lagoo Bandhu Jwellers. Thane West.</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> 9967504602</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> 9870014450</p>
+  				    </div>
+  				    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 address_modal">
+  				            <p><b>Dadar</b></p>
+  				            <p>Kalpana Classes
+                            205, 2nd Floor, Pearl Centre,
+                            Senapati Bapat Road, Dadar West, 
+                            Mumbai.</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> 9867674602</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> 9870014450</p>
+  				    </div>
+  				</div>
+				
+				</form>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Popup Modal For Hiring Recruitment -->
+	<div id="hiringModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header text-center">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h4><b>Suven Consultants &amp; Technology Pvt. Ltd.</b></h4>
+			   </div>
+			<div class="modal-body">
+				<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<img src="./Online Coding Internship - Suven Consultants &amp; Technology Pvt. Ltd._files/sim1.jpg" class="img-circle img-responsive">
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+				<p>Ms Simran (Head for Operations &amp; Recruitment) is an thorough HR professional coming with an expertise in hiring people laterally across levels from Junior to Senior. With 15 years of experience hiring talent right from fresher to CEO level, has a flair for writing and nurturing talent from very basic.She along with her team strongly believes in fitting the right peg to the right hole. Her team likes working with level headed and out of the box thinkers. Do fill in the form below to enable us to connect.
+                </p>
+				</div>
+				</div>
+				<div class="row">
+				<h5 class="text-center"><b>Let us connect with you</b></h5>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<form name="hiringForm" action="https://suvenconsultants.com/hiring_connect.php" method="post" onsubmit="return validateHiring()">
+				<div class="form-group">
+				<input type="text" class="form-control" name="company_name" placeholder="Enter Your Company Name" required="">
+				</div>
+				<div class="form-group">
+				<input type="text" class="form-control" name="hr_name" placeholder="Enter Your HR Name" required="">
+				</div>
+				<div class="form-group">
+				<input type="tel" class="form-control" name="contact" placeholder="Enter Your Contact Number" required="">
+				</div>
+				<div class="form-group">
+				<input type="email" class="form-control" name="mail_id" placeholder="Enter Your Email ID" required="">
+				</div>
+				<div class="form-group">
+				<input type="text" class="form-control" name="requirement" placeholder="Your Job Requirement" maxlength="100" required="">
+				</div>
+				<div class="form-group">
+					<div class="col-lg-offset-2 col-lg-4 col-md-offset-2 col-md-4 col-sm-6 col-xs-6" style="padding:0px;">	
+					<img src="./Online Coding Internship - Suven Consultants &amp; Technology Pvt. Ltd._files/captcha.php" class="img-rounded img-reponsive">
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="padding:0px;">
+  					<input type="text" class="form-control" name="code" id="code" placeholder="Enter Captcha" required="">
+  					</div>
+  				</div>
+				<div class="form-group text-center"><br><br>
+				<button type="submit" class="btn btn-success btn-block" id="btn_submit">Submit</button>
+				</div>
+				</form>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+<!-- SCRIPTS  Start-->
+<script src="./Online Coding Internship - Suven Consultants &amp; Technology Pvt. Ltd._files/jquery-2.2.4.js.download"></script>
+<script src="./Online Coding Internship - Suven Consultants &amp; Technology Pvt. Ltd._files/bootstrap.min.js.download"></script>
+<script src="./Online Coding Internship - Suven Consultants &amp; Technology Pvt. Ltd._files/internship.js.download"></script>
+<!-- SCRIPTS END -->
+
+<script>
+    
+function validateContact(){
+    var name = document.forms["contactForm"]["name"].value;
+	var mobile = document.forms["contactForm"]["mobile"].value;
+	var email = document.forms["contactForm"]["mail_id"].value;
+	var purpose = document.forms["contactForm"]["purpose"].value;
+	var captcha = document.forms["contactForm"]["code"].value;
+	
+	var phoneno = /^\d{10}$/;
+	var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+	
+    if (name == "" || name == null) {
+        alert("Please Enter Your Name");
+        return false;
+    }else if(mobile == "" || mobile == null){
+		alert("Please Enter Your Mobile Number");
+        return false;
+	}else if(phoneno.test(mobile) == false){
+		alert("Please Enter Valid Mobile Number");
+        return false;
+	}else if(email == "" || email == null){
+		alert("Please Enter Your Email ID");
+        return false;
+	}else if(reg.test(email) == false){
+		alert("Invalid Email Address");
+        return false;
+	}else if(purpose == "" || purpose == null){
+		alert("Please Enter Your Purpose");
+        return false;
+	}else if(purpose.length > 100){
+		alert("You can not enter more than 100 characters..");
+        return false;
+	}else if(captcha == "" || captcha == null){
+		alert("Please Enter Captcha Code");
+        return false;
+	}
+
+}
+
+function validateHiring(){
+    var companyname = document.forms["hiringForm"]["company_name"].value;
+	var hrname = document.forms["hiringForm"]["hr_name"].value;
+	var contact = document.forms["hiringForm"]["contact"].value;
+	var email = document.forms["hiringForm"]["mail_id"].value;
+	var requirement = document.forms["hiringForm"]["requirement"].value;
+	var captcha = document.forms["hiringForm"]["code"].value;
+	
+	var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+	
+    if (companyname == "" || companyname == null) {
+        alert("Please Enter Your Company Name");
+        return false;
+    }else if(hrname == "" || hrname == null){
+		alert("Please Enter HR Name");
+        return false;
+	}else if(contact == "" || contact == null){
+		alert("Please Enter Contact Number");
+        return false;
+	}else if(email == "" || email == null){
+		alert("Please Enter Your Email ID");
+        return false;
+	}else if(reg.test(email) == false){
+		alert("Invalid Email Address");
+        return false;
+	}else if(requirement == "" || requirement == null){
+		alert("Please Enter Your Requirement");
+        return false;
+	}else if(requirement.length > 100){
+		alert("You can not enter more than 100 characters..");
+        return false;
+	}else if(captcha == "" || captcha == null){
+		alert("Please Enter Captcha Code");
+        return false;
+	}
+
+}
+
+    
+</script>
+<div class="training hidden-xs hidden-sm">
+	<p>Subscribe for Course Updates - <a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLScPpX9SPBQkjj5xklDta_EOO0mADa-st3Zw8941ThkS5woKCQ/viewform" target="_blank"><b>here</b></a></p>
+	<p><a href="https://drive.google.com/file/d/0B4rCFkKCsCeKc0pDZDdQY3dmVG8/view" target="_blank"><b>Download Information Brochure</b></a></p>
+	<p>Meet our<a href="https://drive.google.com/file/d/0B4rCFkKCsCeKc0pDZDdQY3dmVG8/view" target="_blank"><b> #SuvenAlumni</b></a></p>
+</div>
+
+<script language="javascript">
+$(document).bind('copy', function(e) {
+    e.preventDefault();
+});
+$(document).bind('paste', function() {
+    e.preventDefault();
+});
+$(document).bind('cut', function() {
+    e.preventDefault();
+});
+$(document).bind('contextmenu', function(e) {
+    e.preventDefault();
+});
+</script>
+<script>
+
+    // Ajax Call For Job Postings
+    
+    $(document).on('click', '#btnadd', function(){	
+	    var formdata = $("#projectForm").serialize();
+	   // var data = $("#projectForm").serialize();
+	    console.log(formdata);
+	    
+	    $.ajax({
+			url:'../apply_project.php',
+			method:'post',
+			data:formdata,
+			success:function(data)
+			{
+			    $("#displayContent").html(data);
+                $("#addprojectModal").modal('show');
+                
+			}	
+		});
+	});
+	
+   
+</script></body></html>

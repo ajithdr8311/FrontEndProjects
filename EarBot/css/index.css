@@ -1,0 +1,288 @@
+/* design section */
+
+.design-section {
+    background-color: black;
+    height: 628px;
+}
+
+.col1-img {
+    padding-top: 22%;
+    text-align: center;
+}
+
+.col2-img {
+    padding-top: 5%;
+    text-align: center
+}
+
+.col3-img {
+    padding-top: 22%;
+    text-align: center;
+}
+
+.earbot-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform .8s ease-out;
+}
+
+.earbot-img:hover {
+    transition: transform .8s ease-in-out;
+    transform: rotate(360deg);
+}
+
+.home-text {
+    text-align: center;
+    color: white;
+    font-size: 200%;
+}
+
+
+
+
+/* home page */
+
+/* ********************************************************************************************** */
+
+
+/* intro section */
+
+.intro-img {
+    width: 100%;
+}
+
+.intro-text {
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+
+/* display section */
+
+td, tr, .display-img  { 
+    padding: 0px; 
+    margin: 0px; 
+    border: none; 
+}
+
+.display-img-row {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.display-img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.display-img:hover {
+    transform: scale(1.5);
+}
+
+ td{
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+/* social media links section */
+
+.social-media-links {
+    background-color: black;
+    padding: 2%;
+    text-align: center;
+}
+
+.fa {
+    margin-left: 15px;
+}
+
+.fa-facebook-official {
+    color: #4267B2;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+
+
+/* connect page */
+
+/* ************************************************************************************** */
+
+.brand-intro {
+    padding: 2%;
+    background-color: #f5f5f5;
+}
+
+.brand-intro-text {
+    font-size: large;
+}
+
+
+
+/* product description section */
+
+.product-desc-section {
+    padding: 10px;
+}
+
+.product-desc-div {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.prod-name {
+    font-size: x-large; 
+    margin-bottom: 2px;
+}
+
+.prod-pic {
+    width: 35%;
+}
+
+/* image gallery section */
+
+.image-gallery-section {
+    text-align: center;
+    padding: 10px;
+}
+
+.gal-img {
+    width: 90%;
+}
+
+.connect-socials {
+    color: #1DA1F2;
+}
+
+.connect-socials:hover {
+    color: #4267B2;
+}
+
+
+
+
+/* support page */
+
+/* ********************************************************************************************** */
+
+/* navbar */
+
+.search-btn {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.search-btn:hover {
+    color: white;
+}
+
+
+.search-btn-fa {
+    padding-right: 10px;
+}
+
+.fa-search {
+    padding-bottom: 7px;
+}
+
+
+/* breadcrumb */
+
+.breadcrumb-div {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #e3f2fd;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.b-item1 {
+    text-decoration: none;
+}
+
+.b-item1:hover {
+    text-decoration: underline;
+}
+
+
+
+/* contact section */
+
+.contact-section {
+    margin: 3%;
+    margin-left: 6%;
+    border: 0.3px solid #f5f5f5;
+    border-radius: 5px;
+    border-color: grey;
+    width: 120%;
+}
+
+.contact-heading {
+    text-align: left;
+    background-color: #1e88e5;
+    padding: 2% 0%;
+}
+
+.contact-details {
+    padding: 2%;
+}
+
+
+.fa-envelope {
+    color: white;
+}
+
+.contact-heading-text {
+    color: white;
+}
+
+/* address section */
+
+
+.address-section {
+    margin: 5%;
+    margin-left: 45%;
+}
+
+.card {
+    width: 190%;
+}
+
+.card-header {
+    background-color: #66bb6a;
+    color: white;
+    font-size: larger;
+}
+
+.fa-home {
+    color: white;
+}
+
+.card-body {
+    background-color: #f5f5f5;
+}
+
+
+@media screen and (max-width: 770px) {
+    .contact-section {
+        width: 80%;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .address-section {
+        margin-left: 20%;
+    }
+}

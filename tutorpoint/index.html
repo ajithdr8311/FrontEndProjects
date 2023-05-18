@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TutorPoint clone</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+
+<body>
+
+  <section class="header-section" id="title">
+    <div style="background-image: url('images/bgImg.jpg');">
+      <div class="container">
+        
+        <!-- navbar -->
+
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: white; font-size: xx-large; font-family: Times New Roman;"> <i class="fa fa-book" aria-hidden="true"></i> TutorPoint</a>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#" style="color: white;">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="html/coding-ex.html" style="color: white;"> Coding Examples </a>
+                </li>
+                <li class="nav-item">
+                  <a href="html/courses.html" class="nav-link" style="color: white;"> Courses </a>
+                </li>
+                <li class="nav-item">
+                  <a href="html/ebooks.html" class="nav-link" style="color: white;"> E-books </a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <button class="btn btn-primary btn-sm loginBtn"> Login </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+
+
+        <!-- text -->
+        <div>
+          <h4 class="text"> Get The Best Free Online Courses <br> New User Sign Up Now!! </h4>
+        </div>
+
+        <!-- inline form -->
+        <form class="row g-3">
+          <div class="col-auto">
+            <label for="inputName" class="visually-hidden">Name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Name">
+          </div>
+          <div class="col-auto">
+            <label for="inputEmail" class="visually-hidden">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3 signUpBtn">Sign Up Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="tutorials-library" id="library">
+    <div style="background-color: gray;">
+      <div class="container">
+        <h1 class="library-heading"> Tutorials Library </h1>
+        <h4 class="library-desc"> Learn Online Courses from our Website with easy and lucid explanation!! </h4>
+      </div>
+
+      <!-- courses grid -->
+    <div class="container">
+      <div class="row courses-row">
+        <div class="col">
+          <div class="card-group">
+            <div class="card">
+              <img class="course-img" src="images/cs.jpg" class="card-img-top" alt="">
+              <div class="card-body card-body-1">
+                <h5 class="card-title">Computer Science</h5>
+                <p class="card-text"> 120 courses </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card-group">
+            <div class="card">
+              <img class="course-img" src="images/webdev.jpg" class="card-img-top" alt="">
+              <div class="card-body card-body-1">
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text" > 70 courses </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card-group">
+            <div class="card">
+              <img class="course-img" src="images/prog.jpg" class="card-img-top" alt="">
+              <div class="card-body card-body-1">
+                <h5 class="card-title">Programming Tutorials</h5>
+                <p class="card-text"> 55 courses </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row courses-row-2">
+        <div class="col">
+          <div class="card-group">
+            <div class="card">
+              <img class="course-img" src="images/db.jpg" class="card-img-top" alt="">
+              <div class="card-body card-body-1">
+                <h5 class="card-title">Database Tutorials</h5>
+                <p class="card-text"> 25 courses </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card-group">
+            <div class="card">
+              <img class="course-img" src="images/mob-dev.jpg" class="card-img-top" alt="">
+              <div class="card-body card-body-1">
+                <h5 class="card-title">Mobile Development</h5>
+                <p class="card-text"> 220 courses </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card-group">
+            <div class="card">
+              <img class="course-img" src="images/java.jpg" class="card-img-top" alt="">
+              <div class="card-body card-body-1">
+                <h5 class="card-title"> Java Technologies </h5>
+                <p class="card-text"> 40 courses </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+  
+
+  <!-- footer section -->
+  
+  <section class="footer" title="links">
+    <div class="footer-links">
+      
+        <h4 class="footer-content"><i class="fa fa-book" aria-hidden="true"></i>TutorPoint</h4>
+        <a href="#"><i class="fa sm-icons fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa sm-icons fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa sm-icons fa-google" aria-hidden="true"></i></a>
+
+        <p class="copy-right">Copyright<i class="fa fa-copyright" aria-hidden="true"></i>2021. All rights reserved | <br>Made by <span style="color: #0277bd;">ajith</span></p>
+     
+
+      <div class="container">
+        <div class="row">
+          <div class="col about-us-col">
+            <h6>ABOUT US</h6>
+            <ul>
+              <li><a href="#" style="text-decoration: none;">Company</a></li>
+              <li><a href="#" style="text-decoration: none;">Our Team</a></li>
+              <li><a href="#" style="text-decoration: none;">Careers</a></li>
+              <li><a href="#" style="text-decoration: none;">Privacy Policy</a></li>
+              <li><a href="#" style="text-decoration: none;">Cookies Policy</a></li>
+              <li><a href="#" style="text-decoration: none;">Terms of use</a></li>
+              <li><a href="#" style="text-decoration: none;">Investors</a></li>
+            </ul>
+          </div>
+
+          <div class="col extra-links-col">
+            <h6>EXTRA LINKS</h6>
+            <ul>
+              <li><a href="#" style="text-decoration: none;">Articles</a></li>
+              <li><a href="#" style="text-decoration: none;">Dev Tools</a></li>
+              <li><a href="#" style="text-decoration: none;">Free Graphics</a></li>
+              <li><a href="#" style="text-decoration: none;">File Conversion</a></li>
+              <li><a href="#" style="text-decoration: none;">Shared Tutorials</a></li>
+              <li><a href="#" style="text-decoration: none;">NetMeeting</a></li>
+              <li><a href="#" style="text-decoration: none;">WhiteBoard</a></li>
+            </ul>
+          </div>
+
+          <div class="col contact-us-links">
+            <h6>CONTACT US</h6>
+            <ul>
+              <li>Address:7th Floor,SP Road.Malabar<br> Hills,Mumbai,Maharastra,404041 </li>
+              <br>
+              <li>Website:<a href="#" style="text-decoration: none;"> www.tutorialspoint.com </a></li>
+            </ul>
+          </div>
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+</body>
+</html>

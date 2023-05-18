@@ -1,0 +1,506 @@
+.header-section-home {
+    padding: 1%;
+    padding-bottom: 0;
+    background-color: #e0e0e0;
+}
+
+.header-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: xx-large;
+    font-weight: 300;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+}
+
+.search-box {
+    width: 260px;
+    border: 0.1px solid white;
+    border-right: none;
+    padding: 22px;
+    height: 22px;
+    outline: none;
+    color: #9e9e9e;
+}
+
+.search-box::placeholder {
+    color: #9e9e9e;
+    font-size: normal;
+}
+
+.search-box:focus {
+    color: #9e9e9e;
+}
+
+.search-box:focus::placeholder {
+    color: transparent;
+}
+
+.search-btn {
+    width: 100px;
+    border: .1px solid white;
+    background-color: #424242;
+    text-align: center;
+    color: white;
+    padding: 0.7%;
+}
+
+.search-btn:hover {
+    transition: 0.4s ease-out;
+    background-color: #ef5350;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    
+    .header-text {
+        font-size: x-large;
+    }
+
+    ::placeholder {
+        font-size: small;
+    }
+
+    .search-btn-text {
+        font-size: smaller;
+    }
+
+    .search-box {
+        width: 220px;
+        height: 20px;
+    }
+
+    .search-btn {
+        width: 80px;
+    }
+}
+
+
+@media screen and (max-width: 620px) {
+    
+    .header-text {
+        font-size: large;
+        font-weight: 900;
+        text-shadow: 1px 1px grey;
+    }
+
+    ::placeholder {
+        font-size: small;
+    }
+
+    .search-btn-text {
+        font-size: smaller;
+    }
+
+    .search-box {
+        width: 150px;
+        height: 15px;
+        padding: 17px;
+    }
+
+    .seach-btn {
+        width: 50px;
+    }
+}
+
+
+
+
+
+/* navbar */
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #424242;
+  }
+  
+  li {
+    border: 0.3px solid #bbb;
+  }
+  
+  ul.topnav li {
+      float: left;
+    }
+  
+  .topnav {
+      border-bottom: 0.2px solid #bbb;
+  }
+
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {
+    transition: 0.4s ease-out;
+    background-color: #ef5350;
+  }
+  
+  ul.topnav li a.active {
+    background-color: #ef5350;
+  }
+  
+  ul.topnav li.right {
+    float: right;
+  }
+  
+
+
+  /* hogwarts image */
+
+  .bg-img {
+      width: 100%;
+  }
+
+
+  /* carousel section */
+
+  .carousel-section {
+      height: 400px;
+  }
+
+  .carousel-item {
+      padding-top: 10%;
+  }
+
+
+
+  /* college links section */
+
+  .college-links {
+      text-align: center;
+      background-color: #e0e0e0;
+      padding: 30px;
+      padding-top: 70px;
+      opacity: 0.95;
+  }
+
+  .texts {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 700;
+  }
+
+  .texts:hover {
+    transition: 0.4s ease-out;
+    color: #ef5350;
+  }
+
+  .small-texts {
+      color: gray;
+  }
+
+  .btn-outline-light {
+      color: black;
+      border-color: #e91e63;
+  }
+
+
+  /* alumni network section */
+
+  .card-title:hover {
+    color: #ef5350;
+    cursor: pointer;
+  }
+
+
+  .slider {
+      max-width: 1100px;
+  }
+
+  .slider .card {
+      margin: 0 5px;
+  }
+
+
+
+
+/* footer section */
+
+.footer-section {
+    padding: 3%;
+    background-color: #fafafa;
+    text-align: center;
+    color: gray;
+}
+
+
+
+/* blog page */
+
+.header-section-blog {
+    padding: 1%;
+    padding-bottom: 0;
+    background-image: url('../images/hogwarts-img-2.jpg');
+}
+
+
+/* blog section */
+
+.blog-section {
+    padding: 2%;
+    background-color: #eeeeee;
+}
+
+.blog-heading {
+    font-size: 200%; 
+    font-weight: 300;
+}
+
+.blog-heading:hover {
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    color: #ef5350;
+}
+
+.hp-img {
+    width: 97%;
+    border-radius: 4px;
+}
+
+.hp-img:hover {
+    box-shadow: 10px 10px #d7ccc8;
+    cursor: pointer;
+}
+
+
+.social-handles {
+    margin-right: 0;
+    margin-left: auto;
+    width: 40%;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .social-handles {
+        margin-left: 0;
+        width: 30%;
+    }
+}
+
+.socials {
+    text-align: center;
+    color: white;
+    
+}
+
+.followers {
+    border-bottom: 0.1px solid #e0e0e0;
+}
+
+td{
+    padding: 2%;
+    font-size: smaller;
+}
+
+td:hover {
+    cursor: pointer;
+}
+
+small {
+    padding-right: 15px;
+    font-size: smaller;
+}
+
+.fa-lg {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+}
+
+.fb {
+    background-color: #4267B2;
+}
+
+.mail {
+    background-color: #4db6ac;
+}
+
+.dribbble {
+    background-color: #f06292;
+}
+
+
+/* ads section */
+
+.ads-r1-c1, .ads-r1-c2 , .ads-r2-c1, .ads-r2-c2{
+    width: 20%;
+    height: 80px;
+    background-color: white;
+    margin: 5px 10px;
+    cursor: pointer;
+    color: grey;
+}
+
+
+
+/* tags section */
+
+.flex-item {
+    background-color: #424242;
+    color: white;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.flex-item:hover {
+    transition: 0.3s ease-in;
+    background-color: #ef5350;
+}
+
+.tag-link {
+    text-decoration: none;
+}
+
+.active-tag {
+    background-color: #ef5350;
+}
+
+.subscribe-btn {
+    padding-bottom: 10px; 
+    border: 2px solid #ef5350;
+    margin-top: 8px;
+    margin-right: 0;
+}
+
+.subscribe-btn:hover {
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+
+    .subscribe-box {
+        width: 50%;
+    }
+    
+    .subscribe-btn {
+        width: 100px;
+        height: 40px;
+    }
+}
+
+
+
+
+/* contact page  */
+
+/* ****************************************************************** */
+
+
+.google-map-section {
+    padding: 3%;
+}
+
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+
+    border-radius: 10px;
+  }
+
+
+
+  /* contact form */
+
+  .google-map-section {
+      background-color: #eeeeee;
+  }
+
+
+  /* contact form section */
+
+  .contact-details {
+      text-decoration: none;
+      color: #ef5350;
+  }
+
+  .contact-details:hover {
+      transition: 0.4s ease-out;
+      color: black;
+  }
+
+  .contact-form, .contact-form-sub {
+      width: 100%;
+      border: 0.1px solid white;
+      outline: none;
+      border-radius: 5px;
+      color: grey;
+      font-size: small;
+  }
+
+.contact-form {
+    height: 35px;
+}
+
+  .contact-form:focus, .contact-form-sub:focus{
+      border: 0.3px solid #ef5350;
+  }
+
+
+  @media screen and (min-width: 770px) {
+      
+    .contact-form, .contact-form-sub {
+        width: 130%;
+    }
+  }
+
+
+
+
+  /* about page */
+
+  /* *************************************************************************** */
+
+
+  .header-section-about {
+      background-image: url('../images/hogwarts-img-2.jpg');
+  }
+
+  .about-section {
+      padding: 3%;
+      background-color: #eeeeee;
+  }
+
+
+/* technology page */
+
+.header-section-tech {
+    background-image: url('../images/hogwarts-img-2.jpg');
+}
+
+.tech-section {
+    padding: 3%;
+    background-color: #eeeeee;
+}
+
+.tech-pic {
+    text-align: right;
+    padding-top: 0%;
+    margin-right: 4%;
+}
+
+.btn-rm {
+    border: 1.5px solid #ef5350; 
+    color: gray;
+}
+
+.btn-rm:hover {
+    transition: .4s ease-out;
+    background-color: #ef5350;
+    color: white;
+}
